@@ -1,16 +1,11 @@
 import React, { Component } from 'react';
-import './App.css';
+import ShortAnswerQuestion from './components/ShortAnswerQuestions/ShortAnswerQuestions.js'
 
 class App extends Component {
   render() {
     return (
       <div className="App">
-        <header className="App-header">
-          <h1 className="App-title">Welcome to React-Form-Elements</h1>
-        </header>
-        <p className="App-intro">
-          React application to generate form elements easily from data structures defined in JS.
-        </p>
+        <ShortAnswerQuestion question="What is your name?"/>
       </div>
     );
   }
